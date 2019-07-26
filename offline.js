@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1563975833,
+	"version": 1564140542,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -25,11 +25,11 @@
 		"images/background-default-005.jpg",
 		"images/card-sheet0.png",
 		"images/card-sheet1.png",
-		"images/card-sheet2.png",
 		"images/messagebox-sheet0.png",
 		"images/orientationshadow-default-000.jpg",
 		"images/messageline1.png",
 		"images/orientationmessages.png",
+		"images/creditsbg-sheet0.png",
 		"images/creditslogo-sheet0.png",
 		"images/fadescreen-default-000.jpg",
 		"images/timertxt.png",
