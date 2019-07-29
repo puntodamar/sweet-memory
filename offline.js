@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1564388309,
+	"version": 1564398337,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -34,7 +34,7 @@
 		"images/fadescreen-default-000.jpg",
 		"images/timertxt.png",
 		"images/inputdata.png",
-		"images/formlabeltxt.png",
+		"images/infomsgtxt.png",
 		"media/card.ogg",
 		"media/game_over.ogg",
 		"media/right.ogg",
