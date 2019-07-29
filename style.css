@@ -1,0 +1,17 @@
+.input{
+  font-family: arial;
+  color: #F7FDFF !important;
+  font-size: 16px;
+  text-shadow: 1px 1px 0px #5F84AB;
+  box-shadow: 1px 1px 1px #98BFF9;
+  padding: 10px 25px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: 2px solid #274873;
+  background: #63B8EE;
+  background: linear-gradient(top,  #83BCEE,  #4387C7);
+  background: -ms-linear-gradient(top,  #83BCEE,  #4387C7);
+  background: -webkit-gradient(linear, left top, left bottom, from(#83BCEE), to(#4387C7));
+  background: -moz-linear-gradient(top,  #83BCEE,  #4387C7);
+}
