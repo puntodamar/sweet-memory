@@ -27126,5 +27126,7 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Dictionary.prototype.exps.CurrentValue,
 	cr.plugins_.Dictionary.prototype.exps.CurrentKey,
 	cr.plugins_.Dictionary.prototype.acts.Clear,
+	cr.plugins_.JSON.prototype.cnds.ForEachProperty,
+	cr.plugins_.JSON.prototype.exps.CurrentValue,
 	cr.plugins_.Dictionary.prototype.exps.AsJSON
 ];};
