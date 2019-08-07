@@ -26960,8 +26960,8 @@ cr.behaviors.lunarray_LiteTween = function(runtime)
 }());
 cr.getObjectRefTable = function () { return [
 	cr.plugins_.AJAX,
-	cr.plugins_.Arr,
 	cr.plugins_.Audio,
+	cr.plugins_.Arr,
 	cr.plugins_.Browser,
 	cr.plugins_.Dictionary,
 	cr.plugins_.Function,
@@ -27094,6 +27094,11 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.TextBox.prototype.exps.Text,
 	cr.plugins_.TextBox.prototype.acts.SetText,
 	cr.system_object.prototype.exps.left,
+	cr.plugins_.TextBox.prototype.cnds.OnClicked,
+	cr.system_object.prototype.cnds.PickByComparison,
+	cr.plugins_.Browser.prototype.acts.Alert,
+	cr.plugins_.TextBox.prototype.cnds.CompareInstanceVar,
+	cr.system_object.prototype.exps.right,
 	cr.plugins_.AJAX.prototype.acts.SetHeader,
 	cr.plugins_.JSON.prototype.acts.SetCurrentPath,
 	cr.plugins_.JSON.prototype.acts.NewObject,
@@ -27107,7 +27112,6 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.JSON.prototype.acts.SetValue,
 	cr.plugins_.AJAX.prototype.acts.Post,
 	cr.plugins_.JSON.prototype.exps.AsJson,
-	cr.plugins_.Browser.prototype.acts.Alert,
 	cr.plugins_.AJAX.prototype.cnds.OnComplete,
 	cr.plugins_.AJAX.prototype.exps.LastData,
 	cr.plugins_.LocalStorage.prototype.acts.SetItem,
@@ -27117,7 +27121,6 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Browser.prototype.exps.ExecJS,
 	cr.plugins_.Rex_Hash.prototype.acts.StringToHashTable,
 	cr.plugins_.Dictionary.prototype.acts.AddKey,
-	cr.system_object.prototype.cnds.PickByComparison,
 	cr.system_object.prototype.exps.urlencode,
 	cr.plugins_.List.prototype.exps.SelectedText,
 	cr.plugins_.Dictionary.prototype.exps.Get,
@@ -27128,5 +27131,6 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Dictionary.prototype.acts.Clear,
 	cr.plugins_.JSON.prototype.cnds.ForEachProperty,
 	cr.plugins_.JSON.prototype.exps.CurrentValue,
+	cr.system_object.prototype.exps.max,
 	cr.plugins_.Dictionary.prototype.exps.AsJSON
 ];};
