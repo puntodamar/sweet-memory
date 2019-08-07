@@ -26960,11 +26960,10 @@ cr.behaviors.lunarray_LiteTween = function(runtime)
 }());
 cr.getObjectRefTable = function () { return [
 	cr.plugins_.AJAX,
-	cr.plugins_.Audio,
 	cr.plugins_.Arr,
-	cr.plugins_.Dictionary,
+	cr.plugins_.Audio,
 	cr.plugins_.Browser,
-	cr.plugins_.SpriteFontPlus,
+	cr.plugins_.Dictionary,
 	cr.plugins_.Function,
 	cr.plugins_.JSON,
 	cr.plugins_.List,
@@ -26976,6 +26975,7 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Text,
 	cr.plugins_.TextBox,
 	cr.plugins_.Touch,
+	cr.plugins_.SpriteFontPlus,
 	cr.behaviors.Fade,
 	cr.behaviors.lunarray_LiteTween,
 	cr.behaviors.Timer,
