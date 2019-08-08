@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1565239197,
+	"version": 1565247982,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -21,8 +21,6 @@
 		"images/background-default-001.jpg",
 		"images/background-default-002.jpg",
 		"images/background-default-003.jpg",
-		"images/background-default-004.jpg",
-		"images/background-default-005.jpg",
 		"images/card-sheet0.png",
 		"images/card-sheet1.png",
 		"images/messagebox-sheet0.png",
